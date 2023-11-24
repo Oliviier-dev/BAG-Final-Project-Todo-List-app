@@ -13,7 +13,7 @@ What to expect: <br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-All of these comes together with the ability to save the tasks. <br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-When you refresh your page the tasks as well as your name will be there again <br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-What will be not there again is the (starred or completed tasks); all tasks will come back newly. <br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-And, the page is fully responsive <br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**-And, the page is fully responsive** <br>
   <br>
 What to expect on the next version of this to do app: <br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-The app will be able to store the starred items as well as the completed ones<br>
