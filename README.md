@@ -3,7 +3,7 @@ Here is the link to the project: https://oliviier-dev.github.io/BAG-Final-Projec
 
 What to expect: <br>
 <br>
-  &nbsp;-Opening the todo you enter your name <br>
+  &nbsp;&nbsp;&nbsp;&nbsp;-Opening the todo you enter your name <br>
   -Enter your tasks you have todo <br>
   -Each item will be created with a star button, text content, completed button, and delete button <br>
   -Clicking on the star button will mark the task as important and move it at the top, and highlight it to differ from other tasks <br>
