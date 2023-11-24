@@ -24,3 +24,9 @@ while (userName.trim() === "") {
 }
 
 title.textContent = `${userName.charAt(0).toUpperCase() + userName.slice(1).toLowerCase()}'s Todo List`;
+
+
+//Event Listeners
+document.addEventListener("DOMContentLoaded", getTodos);
+todoButton.addEventListener("click", addTodo);
+todoList.addEventListener("click", updateTodo);
