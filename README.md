@@ -2,6 +2,7 @@
 Here is the link to the project: https://oliviier-dev.github.io/BAG-Final-Project-Todo-List-app/
 
 What to expect: <br>
+<br>
   -Opening the todo you enter your name <br>
   -Enter your tasks you have todo <br>
   -Each item will be created with a star button, text content, completed button, and delete button <br>
