@@ -63,3 +63,36 @@ form button:hover{
     align-items: center;
     transition: all 0.5s ease;
 }
+
+.todo li{
+    flex: 1;
+}
+
+.trash-btn, .complete-btn, .star-btn{
+    background: #47e6ff;
+    color: white;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.star-btn{
+    color: black;
+    padding: 0.6rem;
+    background-color: white;
+}
+
+.complete-btn{
+    background: #858383;
+}
+
+.todo-item{
+    padding: 0rem 0.5rem;
+}
+
+.fa-trash,
+.fa-check,
+.fa-star {
+  pointer-events: none;
+}
