@@ -106,3 +106,31 @@ form button:hover{
     text-decoration: line-through;
     opacity: 0.5;
 }
+
+/* Media query for screens less than 500px */
+@media only screen and (max-width: 499px) {
+    body {
+        padding: 20px;
+      }
+    
+      header {
+        font-size: 1.5rem;
+      }
+    
+      header,
+      form {
+        min-height: auto;
+      }
+    
+      form input,
+      form button {
+        font-size: 1.5rem;
+      }
+    
+      .todo-list {
+        min-width: unset;
+        width: 80%;
+        margin: 0 auto;
+      }
+}
+
