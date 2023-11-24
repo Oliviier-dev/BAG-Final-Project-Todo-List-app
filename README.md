@@ -1,4 +1,4 @@
-# BAG Innovation Software Engineering program Final Project : Todo List App
+# BAG Innovation Software Development program Final Project : Todo List App
 Here is the link to the project: https://oliviier-dev.github.io/BAG-Final-Project-Todo-List-app/
 
 What to expect: <br>
