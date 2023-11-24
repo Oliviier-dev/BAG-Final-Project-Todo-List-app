@@ -5,6 +5,8 @@ const starButton = document.querySelector(".star-btn");
 const todoList = document.querySelector(".todo-list");
 const title = document.getElementById("title");
 
+//This count keeps record of completed items
+let countCompletedTodo = 0;
 
 
 let userName = localStorage.getItem('userName');
@@ -175,4 +177,50 @@ function removeLocalTodos(todo) {
     
     todos.splice(todos.indexOf(todo.textContent), 1);
     localStorage.setItem("todos", JSON.stringify(todos));
+}
+
+
+//function which retrieves the stored items
+function getTodos() {
+    let todos;
+    if (localStorage.getItem("todos") === null || localStorage.getItem("todos") === "") {
+      todos = [];
+    } else {
+      todos = JSON.parse(localStorage.getItem("todos"));
+    }
+    todos.forEach(function(todo) {
+
+      //Create todo div
+      const todoDiv = document.createElement("div");
+      todoDiv.classList.add("todo");
+
+      //Create list
+      const newTodo = document.createElement("li");
+      newTodo.innerText = todo;
+      newTodo.classList.add("todo-item");
+      todoDiv.appendChild(newTodo);
+      todoInput.value = "";
+
+      //star button
+      const starButton = document.createElement("button");
+      starButton.innerHTML = `<i class="fas fa-star"></i>`;
+      starButton.classList.add("star-btn");
+      todoDiv.insertBefore(starButton, todoDiv.children[0]);
+
+      //Create Completed Button
+      const completedButton = document.createElement("button");
+      completedButton.innerHTML = `<i class="fas fa-check"></i>`;
+      completedButton.classList.add("complete-btn");
+      todoDiv.appendChild(completedButton);
+
+      //Create trash button
+      const trashButton = document.createElement("button");
+      trashButton.innerHTML = `<i class="fas fa-trash"></i>`;
+      trashButton.classList.add("trash-btn");
+      todoDiv.appendChild(trashButton);
+
+      //insert the whole div before other todos
+      todoList.insertBefore(todoDiv, todoList.children[0]);
+    });
+
 }
