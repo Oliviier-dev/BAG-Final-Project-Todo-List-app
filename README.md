@@ -12,7 +12,6 @@ What to expect:
   -All of these comes together with the ability to save the tasks.
   -When you refresh your page the tasks as well as your name will be there again
   -What will be not there again is the (starred or completed tasks); all tasks will come back newly.
-  -
-
+  
 What to expect on the next version of this to do app:
   -The app will be able to store the starred items as well as the completed ones.
