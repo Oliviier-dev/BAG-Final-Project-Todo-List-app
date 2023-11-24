@@ -151,3 +151,28 @@ function updateTodo(e){
         }
     }
 }
+
+
+function saveLocalTodos(todo) {
+    let todos;
+    if (localStorage.getItem("todos") === null || localStorage.getItem("todos") === "") {
+      todos = [];
+    } else {
+      todos = JSON.parse(localStorage.getItem("todos"));
+    }
+    todos.push(todo);
+    localStorage.setItem("todos", JSON.stringify(todos));
+}
+
+
+function removeLocalTodos(todo) {
+    let todos;
+    if (localStorage.getItem("todos") === null) {
+      todos = [];
+    } else {
+      todos = JSON.parse(localStorage.getItem("todos"));
+    }
+    
+    todos.splice(todos.indexOf(todo.textContent), 1);
+    localStorage.setItem("todos", JSON.stringify(todos));
+}
