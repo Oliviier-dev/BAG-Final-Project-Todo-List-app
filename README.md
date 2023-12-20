@@ -5,7 +5,7 @@ What to expect: <br>
 <br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Opening the todo you enter your name <br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Enter your tasks you have todo <br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Each item will be created with a star button, text content, completed button, and delete button <br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Each item will be created with star button, text content, completed button, and delete button <br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Clicking on the star button will mark the task as important and move it at the top, and highlight it to differ from other tasks <br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Clicking on the tick button(completed button) will mark the task as completed and move it to the bottom, and reduce it's opacity <br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Also the completed tasks will lose their ability to be starred or unstarred <br>
