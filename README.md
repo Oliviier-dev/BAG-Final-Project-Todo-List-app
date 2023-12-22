@@ -8,7 +8,7 @@ What to expect: <br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Each item will be created with star button, text content, completed button, and delete button <br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Clicking on the star button will mark the task as important and move it at the top, and highlight it to differ from other tasks <br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Clicking on the tick button(completed button) will mark the task as completed and move it to the bottom, and reduce it's opacity <br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Also the completed tasks will lose their ability to be starred or unstarred <br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Also the completed tasks will  lose their ability to be starred or unstarred <br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Clicking on the trash button will erase the task with beautiful falling animation <br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-All of these comes together with the ability to save the tasks. <br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-When you refresh your page the tasks as well as your name will be there again <br>
