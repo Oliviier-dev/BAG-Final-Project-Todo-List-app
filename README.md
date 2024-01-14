@@ -1,7 +1,7 @@
 # BAG Innovation Software Development program Final Project : Todo List App
 Here is the link to the project: https://oliviier-dev.github.io/BAG-Final-Project-Todo-List-app/
 
-What to expect: <br>
+What to  expect: <br>
 <br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Opening the todo you enter your name <br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Enter your tasks you have todo <br>
